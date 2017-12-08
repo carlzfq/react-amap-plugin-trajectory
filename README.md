@@ -7,6 +7,7 @@ Map上要配置属性 useAMapUI
 Trajectory 配置visible 和routeData
 
 ### 轨迹路线
+```html
 let routeData = [{
       name: '轨迹0',
       path: [
@@ -26,6 +27,7 @@ let routeData = [{
     }
 
 ### 使用：
+ ```jsx
 <Map plugins={['ToolBar']}  zoom={5} amapkey="xxxxxx" center={this.mapCenter} resizeEnable={true} useAMapUI={true}>
   <Trajectory visible={true} routeData={routeData}/>
 	<Marker position ={this.mapCenter}/>
