@@ -2,9 +2,10 @@
 
 
 ### 参数配置
-
+```html
 Map上要配置属性 useAMapUI
 Trajectory 配置visible 和routeData
+```
 
 ### 轨迹路线
 ```html
@@ -25,6 +26,7 @@ let routeData = [{
       ],
       desc:"鼠标停留在这，tip提示"
     }
+```
 
 ### 使用：
  ```jsx
@@ -32,3 +34,4 @@ let routeData = [{
   <Trajectory visible={true} routeData={routeData}/>
 	<Marker position ={this.mapCenter}/>
 </Map>
+```
