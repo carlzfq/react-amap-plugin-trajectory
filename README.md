@@ -1,12 +1,12 @@
 # Trajectory Plugin for [react-amap](https://elemefe.github.io/react-amap/)
 
 
-#参数配置
+### 参数配置
 
 Map上要配置属性 useAMapUI
 Trajectory 配置visible 和routeData
 
-轨迹路线
+### 轨迹路线
 let routeData = [{
       name: '轨迹0',
       path: [
@@ -25,7 +25,7 @@ let routeData = [{
       desc:"鼠标停留在这，tip提示"
     }
 
-使用：
+### 使用：
 <Map plugins={['ToolBar']}  zoom={5} amapkey="xxxxxx" center={this.mapCenter} resizeEnable={true} useAMapUI={true}>
   <Trajectory visible={true} routeData={routeData}/>
 	<Marker position ={this.mapCenter}/>
