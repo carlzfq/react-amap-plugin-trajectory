@@ -1,0 +1,23 @@
+{
+  "name": "react-amap-plugin-trajectory",
+  "version": "0.0.7",
+  "description": "Trajectory plugin for react-amap",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlzfq/react-amap-plugin-trajectory.git"
+  },
+  "scripts": {
+    "build": "rm -rf lib && webpack && NODE_ENV=production webpack",
+    "prepublish": "npm run build"
+  },
+  "author": "carlzfq@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.0.0"
+  }
+}
