@@ -1,5 +1,7 @@
 # Trajectory Plugin for [react-amap](https://elemefe.github.io/react-amap/)
 
+# 说明
+初次接触reactjs，插件写的半吊子不伦不类，没有发布npm。此处只为给初次使用地图媛类一个引导"如何在reactjs中使用 高德地图的 AMapUI".
 
 ### 参数配置
 ```html
